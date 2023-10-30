@@ -1,0 +1,25 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          Google:
+            client-id: 59393945774-3sonsag6nn1aneie3qd1pct1okkk3os2.apps.googleusercontent.com
+            client-secret: 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
+          Github:
+            client-id: Iv1.f9406f03be3f8cf4
+            client-secret: e7ed2f21b903ea10408acaaa4cb14cb049dee7c7
+          Facebook:
+            client-id: 1495141601320688
+            client-secret: 67f21b87e8792cb32bce44c8bc9858bf
+#        provider:
+#          google:
+#            authorizationUri: https://accounts.google.com/o/oauth2/auth
+#            tokenUri: https://oauth2.googleapis.com/token
+#            userInfoUri: https://www.googleapis.com/oauth2/v3/userinfo
+#            userNameAttribute: sub
+#          github:
+#            authorizationUri: https://github.com/login/oauth/authorize
+#            tokenUri: https://github.com/login/oauth/access_token
+#            userInfoUri: https://api.github.com/user
+#            userNameAttribute: login
